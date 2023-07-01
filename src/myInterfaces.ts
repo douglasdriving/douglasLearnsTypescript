@@ -13,18 +13,18 @@ let myPoint: Point = { x: 10, y: 20 };
 // and 'z' does not exist in type 'Point'.
 
 //challenge: create a person interface
-interface Person {
+interface Human {
   firstName: string,
   lastName: string,
   age: number,
   isAlive: boolean,
 }
 
-let myPerson: Person = {
+let myHuman: Human = {
   firstName: "Douglas",
   lastName: "Driving",
   age: 28,
   isAlive: true,
 }
 
-console.log(myPerson.firstName);
+console.log(myHuman.firstName);
