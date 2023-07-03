@@ -8,6 +8,7 @@ interface Point {
 //then use the structure to define an object
 let myPoint: Point = { x: 10, y: 20 };
 
+console.log("🚀 ~ file: myInterfaces.ts:11 ~ myPoint:", myPoint)
 //let wrongPoint: Point = { x: 10, z: 15 };
 // Error: Object literal may only specify known properties,
 // and 'z' does not exist in type 'Point'.
@@ -26,5 +27,4 @@ let myHuman: Human = {
   age: 28,
   isAlive: true,
 }
-
-console.log(myHuman.firstName);
+console.log("🚀 ~ file: myInterfaces.ts:29 ~ myHuman:", myHuman)
